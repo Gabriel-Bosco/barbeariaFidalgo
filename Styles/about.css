@@ -1,0 +1,67 @@
+#about {
+    height: 740px;
+    padding: 50px 75px;
+    box-sizing: border-box;
+    opacity: 0.95;
+    background: linear-gradient(#232323 0%, #4d340f 100%);
+}
+
+.organiza {
+    text-align: center;
+}
+
+.titulo-sobre {
+    margin: 0 auto;
+    text-align: center;
+    width: 710px;
+    padding-top: 20px;
+}
+
+.titulo-sobre .antenome {
+    margin-top: -20px;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #c69f69;
+    padding-bottom: 20px;
+}
+
+.titulo-sobre .nome {
+    font-size: 9em;
+    color: #ececec;
+    top: 300px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.titulo-sobre .texto {
+    color: white;
+    font-size: 1.35em;
+}
+
+.livro {
+    position: absolute;
+    opacity: 0.4;
+    left: -220px;
+    top: 750px;
+    height: 700px;
+    pointer-events: none;
+    user-select: none;
+    border-radius: 15px;
+}
+
+.caneta {
+    position: absolute;
+    right: 20px;
+    top: 720px;
+    opacity: 0.3;
+    height: 750px;
+    pointer-events: none;
+    user-select: none;
+}
+
+#about .botao {
+    background-color: #4d340f;
+}
+
+#about .botao:hover {
+    box-shadow: 0.5px 0.5px 15px 1px #38260b ;
+}
