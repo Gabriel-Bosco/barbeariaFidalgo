@@ -1,9 +1,9 @@
 #gallery {
-    height: 670px;
+    height: 740px;
     padding: 50px 75px;
     box-sizing: border-box;
-    background: #4d340f;
-    background: linear-gradient(262deg, #4d340f 0%, #0c0802 100%);
+    background: rgb(77,52,15);
+    background: linear-gradient(262deg, #4d340f 0%, rgb(12, 8, 2) 100%);
     opacity: 0.95;
 }
 
@@ -11,7 +11,9 @@
     position: absolute;
     text-align: left;
     width: 450px;
-    left: 110px;
+    left: 75px;
+    padding-top: 20px;
+
 }
 
 .titulo-galeria .antenome {
@@ -39,7 +41,7 @@
 .vaso {
     vertical-align: bottom;
     position: absolute;
-    top: 1750px;
+    top: 1885px;
     left: 50px;
     width: 300px;
     opacity: 0.3;
@@ -49,9 +51,9 @@
 
 .quadro {
     position: absolute;
-    right: 12px;
-    top: 1430px;
-    width: 250px;
+    right: 50px;
+    top: 1530px;
+    width: 300px;
     opacity: 0.3;
     display: inline;
     user-select: none;
