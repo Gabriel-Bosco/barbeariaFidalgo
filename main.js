@@ -18,19 +18,19 @@ window.onload=function() { //funciona simultaneo ao carregamento da pgn
         foto[c].classList.add("foto"); //adiciona o atributo class as imagens
 
         if (c <= 4) {
-            frame[c].style.top = "1910px"; //define o y da imagem
+            frame[c].style.top = "1775px"; //define o y da imagem
             frame[c].style.left = `${x - 17}px`; //define o x da imagem
 
-            foto[c].style.top = "1927px";
+            foto[c].style.top = "1792px";
             foto[c].style.left = `${x}px`;
             x = x + 230; //distancia entre as imagens
 
         }
         else {
-            frame[c].style.top = "1610px";
+            frame[c].style.top = "1475px";
             frame[c].style.left = `${x2 - 17}px`;
 
-            foto[c].style.top = "1627px";
+            foto[c].style.top = "1495px";
             foto[c].style.left = `${x2}px`;
             x2 = x2 + 230;
         }

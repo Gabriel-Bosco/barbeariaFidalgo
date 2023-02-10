@@ -1,9 +1,10 @@
 #about {
-    height: 740px;
+    height: 670px;
     padding: 50px 75px;
     box-sizing: border-box;
     opacity: 0.95;
-    background: linear-gradient(#232323 0%, #4d340f 100%);
+    background: rgb(42,28,19);
+    background: linear-gradient(90deg, rgba(42,28,19,1) 50%, rgba(29,22,17,1) 51%);
 }
 
 .organiza {
@@ -41,8 +42,8 @@
     position: absolute;
     opacity: 0.4;
     left: -220px;
-    top: 750px;
-    height: 700px;
+    top: 739px;
+    height: 655px;
     pointer-events: none;
     user-select: none;
     border-radius: 15px;
@@ -53,7 +54,7 @@
     right: 20px;
     top: 720px;
     opacity: 0.3;
-    height: 750px;
+    height: 690px;
     pointer-events: none;
     user-select: none;
 }
