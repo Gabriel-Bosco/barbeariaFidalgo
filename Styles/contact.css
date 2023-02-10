@@ -1,0 +1,15 @@
+#contact {
+    height: 740px;
+    box-sizing: border-box;
+    background-color: #b39b7e;
+    text-align: center;
+    padding-top: 65px;
+}
+
+#contact div {
+    background-color: #f8f0e7;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.20 );
+}
