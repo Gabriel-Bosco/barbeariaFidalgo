@@ -1,3 +1,4 @@
+/* --- LAYOUT --- */
 #about {
     height: 740px;
     padding: 50px 75px;
@@ -7,10 +8,33 @@
     background: linear-gradient(90deg, rgba(41,28,19,1) 50%, rgba(29,21,16,1) 51%);
 }
 
-.organiza {
+.sobre {
     text-align: center;
 }
 
+.livro {
+    position: absolute;
+    opacity: 0.4;
+    left: -220px;
+    top: 750px;
+    height: 700px;
+    pointer-events: none;
+    user-select: none;
+    border-radius: 15px;
+}
+
+.caneta {
+    position: absolute;
+    right: 20px;
+    top: 720px;
+    opacity: 0.3;
+    height: 750px;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+/* --- TEXTO --- */
 .titulo-sobre {
     margin: 0 auto;
     text-align: center;
@@ -38,27 +62,7 @@
     font-size: 1.35em;
 }
 
-.livro {
-    position: absolute;
-    opacity: 0.4;
-    left: -220px;
-    top: 750px;
-    height: 700px;
-    pointer-events: none;
-    user-select: none;
-    border-radius: 15px;
-}
-
-.caneta {
-    position: absolute;
-    right: 20px;
-    top: 720px;
-    opacity: 0.3;
-    height: 750px;
-    pointer-events: none;
-    user-select: none;
-}
-
+/* --- BOTÕES --- */
 #about .botao {
     background-color: #4d340f;
 }

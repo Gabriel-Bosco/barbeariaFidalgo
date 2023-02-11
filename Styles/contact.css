@@ -15,6 +15,24 @@
     box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.20 );
 }
 
+.telefone {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    right: 75px;
+    top: 3180px;
+}
+
+.mapa {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    width: 625px;
+    height: 490px;
+    opacity: 0.3;
+    right: 75px;
+}
+
 /* --- TEXTO --- */
 .titulo-contato {
     position: absolute;
@@ -64,23 +82,4 @@
 
 .localizacao {
     background-color: #c69f69;
-}
-
-/* --- IMAGENS --- */
-.telefone {
-    user-select: none;
-    pointer-events: none;
-    position: absolute;
-    right: 75px;
-    top: 3180px;
-}
-
-.mapa {
-    user-select: none;
-    pointer-events: none;
-    position: absolute;
-    width: 625px;
-    height: 490px;
-    opacity: 0.3;
-    right: 75px;
 }

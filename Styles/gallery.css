@@ -1,3 +1,4 @@
+/* --- LAYOUT --- */
 #gallery {
     height: 740px;
     padding: 50px 75px;
@@ -5,36 +6,6 @@
     background: rgb(77,52,15);
     background: linear-gradient(262deg, #4d340f 0%, rgb(12, 8, 2) 100%);
     opacity: 0.95;
-}
-
-.titulo-galeria {
-    position: absolute;
-    text-align: left;
-    width: 450px;
-    left: 75px;
-    padding-top: 20px;
-}
-
-.titulo-galeria .antenome {
-    margin-top: -20px;
-    font-size: 2.8em;
-    text-transform: uppercase;
-    color: #c69f69;
-    padding-bottom: 20px;
-}
-
-.titulo-galeria p {
-    color: white;
-}
-
-.titulo-galeria .botao {
-    background-color: #0c0802;
-    margin-left: 200px;
-    margin-top: -30px;
-}
-
-.titulo-galeria .botao:hover {
-    box-shadow: 0.5px 0.5px 15px 1px #000000 ;
 }
 
 .vaso {
@@ -73,4 +44,37 @@
     position: absolute;
     user-select: none;
     pointer-events: none;
+}
+
+/* --- TEXTO --- */
+.titulo-galeria {
+    position: absolute;
+    text-align: left;
+    width: 450px;
+    left: 75px;
+    padding-top: 20px;
+}
+
+.titulo-galeria .antenome {
+    margin-top: -20px;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    color: #c69f69;
+    padding-bottom: 20px;
+}
+
+.titulo-galeria p {
+    color: white;
+}
+
+
+/* --- BOTÕES --- */
+.titulo-galeria .botao {
+    background-color: #0c0802;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.titulo-galeria .botao:hover {
+    box-shadow: 0.5px 0.5px 15px 1px #000000 ;
 }
