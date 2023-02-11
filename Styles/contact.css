@@ -1,3 +1,4 @@
+/* --- LAYOUT --- */
 #contact {
     height: 740px;
     box-sizing: border-box;
@@ -6,10 +7,80 @@
     padding-top: 65px;
 }
 
-#contact div {
+#contact .centro-contato {
     background-color: #f8f0e7;
     width: 90%;
     height: 90%;
     margin: 0 auto;
     box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.20 );
+}
+
+/* --- TEXTO --- */
+.titulo-contato {
+    position: absolute;
+    text-align: left;
+    left: 150px;
+    top: 3050px;
+    width: 660px;
+    padding-top: 20px;
+}
+
+.titulo-contato .nome {
+    color: #c69f69;
+    font-size: 7em;
+}
+
+.titulo-contato .antenome {
+    margin-top: -20px;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    color: #c69f69;
+    padding-bottom: 20px;
+}
+
+.titulo-contato .texto {
+    font-size: 1.3em;
+    color: black;
+}
+
+/* --- BOTÕES --- */
+.acao {
+    width: 300px;
+}
+
+.acao .botao {
+    border-radius: 0;
+    margin: 15px 0;
+    color: white;
+}
+
+.zap {
+    background-color: #404b22;
+}
+
+.horario {
+    background-color: black;
+}
+
+.localizacao {
+    background-color: #c69f69;
+}
+
+/* --- IMAGENS --- */
+.telefone {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    right: 75px;
+    top: 3180px;
+}
+
+.mapa {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    width: 625px;
+    height: 490px;
+    opacity: 0.3;
+    right: 75px;
 }
