@@ -33,6 +33,23 @@
     right: 75px;
 }
 
+canvas {
+    width: 0;
+    height: 200px;
+    border: 1px solid #c69f69   ;
+    position: absolute;
+    left: 330px;
+    top: 280px;
+}
+
+.tabela {
+    width: 300px;
+    height: 178px;
+    position: absolute;
+    left: 350px;
+    top: 330px;
+}
+
 /* --- TEXTO --- */
 .titulo-contato {
     position: absolute;
@@ -59,6 +76,21 @@
 .titulo-contato .texto {
     font-size: 1.3em;
     color: black;
+}
+
+h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.1em;
+    color: #c69f69;
+    font-weight: bold;
+    position: absolute;
+    left: 350px;
+    top: 290px;
+}
+
+.tabela td {
+    font-family: 'Fanwood Text', serif;
+    font-size: 1.3em;
 }
 
 /* --- BOTÕES --- */

@@ -37,3 +37,5 @@ window.onload=function() { //funciona simultaneo ao carregamento da pgn
     }
 }
 //colocar link através de js
+
+
