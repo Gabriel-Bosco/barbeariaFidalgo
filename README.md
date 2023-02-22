@@ -21,9 +21,9 @@
 
 <h3>Tecnologias Utilizadas</h3>
 <p>
-    HTML
-    CSS
-    JavaScript
+    HTML <br>
+    CSS <br>
+    JavaScript <br>
 </p>
 
 <h3> Autor </h3>
