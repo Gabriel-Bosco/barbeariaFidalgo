@@ -31,6 +31,7 @@
     height: 750px;
     pointer-events: none;
     user-select: none;
+    filter: drop-shadow(-10px 5px 5px black);
 }
 
 

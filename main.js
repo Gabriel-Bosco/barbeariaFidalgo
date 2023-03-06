@@ -1,10 +1,10 @@
 const frame = []; //array da moldura
 const foto = []; //array das fotos
 let local = document.getElementById("local"); //local da inserção das fotos
-let x = 423; //valor do x da linha inferior
-let x2 = 650; //valor do x da linha superior
+let x = 413; //valor do x da linha inferior
+let x2 = 640; //valor do x da linha superior
 
-window.onload=function() { //funciona simultaneo ao carregamento da pgn
+window.onload= () => { //funciona simultaneo ao carregamento da pgn
     for (let c = 1; c <= 6; c++) {
 
         frame[c] = document.createElement("img");
@@ -36,6 +36,3 @@ window.onload=function() { //funciona simultaneo ao carregamento da pgn
         }
     }
 }
-//colocar link através de js
-
-

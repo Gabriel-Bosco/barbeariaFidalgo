@@ -21,6 +21,7 @@ header{
     right: 0;
     top: 130px;
     opacity: 0.23;
+    filter: drop-shadow(-10px 10px 10px black);
 }
 
 /* --- MENU --- */

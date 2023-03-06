@@ -19,8 +19,9 @@
     user-select: none;
     pointer-events: none;
     position: absolute;
-    right: 75px;
-    top: 3180px;
+    right: 67px;
+    top: 3170px;
+    filter: drop-shadow(-3px 3px 50px black);
 }
 
 .mapa {
