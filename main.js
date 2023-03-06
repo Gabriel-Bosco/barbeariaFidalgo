@@ -1,11 +1,11 @@
 const frame = []; //array da moldura
 const foto = []; //array das fotos
 let local = document.getElementById("local"); //local da inserção das fotos
-let x = 413; //valor do x da linha inferior
-let x2 = 640; //valor do x da linha superior
+let x = 456; //valor do x da linha inferior
+let x2 = 590; //valor do x da linha superior
 
 window.onload= () => { //funciona simultaneo ao carregamento da pgn
-    for (let c = 1; c <= 6; c++) {
+    for (let c = 1; c <= 5; c++) {
 
         frame[c] = document.createElement("img");
         frame[c].src = ("Imagens/frame.png");
@@ -17,7 +17,7 @@ window.onload= () => { //funciona simultaneo ao carregamento da pgn
         local.appendChild(foto[c]) //adiciona a imagem ao local
         foto[c].classList.add("foto"); //adiciona o atributo class as imagens
 
-        if (c <= 4) {
+        if (c <= 3) {
             frame[c].style.top = "1910px"; //define o y da imagem
             frame[c].style.left = `${x - 17}px`; //define o x da imagem
 
