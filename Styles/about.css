@@ -1,6 +1,6 @@
 /* --- LAYOUT --- */
 #about {
-    height: 740px;
+    height: 660px;
     padding: 50px 75px;
     box-sizing: border-box;
     opacity: 0.95;
@@ -16,8 +16,8 @@
     position: absolute;
     opacity: 0.4;
     left: -220px;
-    top: 750px;
-    height: 700px;
+    top: 665px;
+    height: 650px;
     pointer-events: none;
     user-select: none;
     border-radius: 15px;
@@ -26,9 +26,9 @@
 .caneta {
     position: absolute;
     right: 20px;
-    top: 720px;
+    top: 660px;
     opacity: 0.3;
-    height: 750px;
+    height: 660px;
     pointer-events: none;
     user-select: none;
     filter: drop-shadow(-10px 5px 5px black);

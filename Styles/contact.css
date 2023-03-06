@@ -1,6 +1,6 @@
 /* --- LAYOUT --- */
 #contact {
-    height: 740px;
+    height: 660px;
     box-sizing: border-box;
     background-color: #b39b7e;
     text-align: center;
@@ -20,7 +20,7 @@
     pointer-events: none;
     position: absolute;
     right: 67px;
-    top: 3170px;
+    top: 2795px;
     filter: drop-shadow(-10px 5px 15px black);
 }
 
@@ -28,10 +28,10 @@
     user-select: none;
     pointer-events: none;
     position: absolute;
-    width: 625px;
+    width: 600px;
     height: 490px;
     opacity: 0.3;
-    right: 75px;
+    right: 65px;
 }
 
 canvas {
@@ -56,7 +56,6 @@ canvas {
     position: absolute;
     text-align: left;
     left: 150px;
-    top: 3050px;
     width: 660px;
     padding-top: 20px;
 }
