@@ -1,3 +1,31 @@
+/* MAQUINA DE ESCREVER */
+
+const inserir = document.querySelector("#nome")
+const texto = "Fidalgo"
+const intervalo = 130;
+
+function mostraTexto(inserir, texto, intervalo){
+
+    const letra = texto.split("").reverse();
+
+    const typer = setInterval(() => {
+
+        if(!letra.length){
+            return clearInterval(typer);
+        }
+
+        const prox = letra.pop();
+
+        inserir.innerHTML += prox;
+
+    }, intervalo);
+}
+
+mostraTexto(inserir, texto, intervalo);
+
+
+
+/* CRIA IMAGENS NA GALERIA */
 const frame = []; //array da moldura
 const foto = []; //array das fotos
 let local = document.getElementById("local"); //local da inserção das fotos

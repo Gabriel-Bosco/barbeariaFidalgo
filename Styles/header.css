@@ -74,6 +74,8 @@ nav li :hover {
 .logo {
     width: 150px;
     vertical-align: middle;
+    user-select: none;
+    pointer-events: none;
 }
 
 .contato {
