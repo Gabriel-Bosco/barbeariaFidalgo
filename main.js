@@ -1,27 +1,36 @@
 /* MAQUINA DE ESCREVER */
 
 const inserir = document.querySelector("#nome")
-const texto = "Fidalgo"
-const intervalo = 130;
+const insercao = document.querySelector("#antenome")
+const nome = "Fidalgo"
+const antenome = "Barbearia"
+const intervalo = 200;
 
-function mostraTexto(inserir, texto, intervalo){
+function mostranome(inserir, insercao, antenome, nome, intervalo){
 
-    const letra = texto.split("").reverse();
+    const letras = antenome.split("").reverse();
+    const letra = nome.split("").reverse();
 
     const typer = setInterval(() => {
 
-        if(!letra.length){
+        if(!letras.length){
+            return clearInterval(typer);
+        }
+        
+        if (!letra.length) {
             return clearInterval(typer);
         }
 
+        const proxm = letras.pop();
         const prox = letra.pop();
 
+        insercao.innerHTML += proxm;
         inserir.innerHTML += prox;
 
     }, intervalo);
 }
 
-mostraTexto(inserir, texto, intervalo);
+mostranome(inserir, insercao, antenome, nome, intervalo);
 
 
 
