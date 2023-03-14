@@ -18,6 +18,8 @@
     user-select: none;
     pointer-events: none;
     filter: drop-shadow(-20px 20px 5px black);
+    object-fit: cover;
+
 }
 
 .quadro {
@@ -30,6 +32,8 @@
     user-select: none;
     pointer-events: none;
     filter: drop-shadow(-20px 20px 10px black);
+    object-fit: cover;
+
 }
 
 .moldura {
@@ -40,6 +44,7 @@
     pointer-events: none;
     opacity: 0.5;
     filter: drop-shadow(-5px 5px 5px black);
+
 }
 
 .foto {
@@ -48,6 +53,7 @@
     position: absolute;
     user-select: none;
     pointer-events: none;
+
 }
 
 /* --- TEXTO --- */
