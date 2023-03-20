@@ -25,6 +25,8 @@ function mostranome(inserir, insercao, antenome, nome, intervalo){
 
         }, intervalo);
 
+    }, 1800);
+
 
         const typers = setInterval(() => {
 
@@ -37,8 +39,6 @@ function mostranome(inserir, insercao, antenome, nome, intervalo){
             insercao.innerHTML += proxm;
 
         }, intervalo);
-
-    }, 700);
 }
 
 mostranome(inserir, insercao, antenome, nome, intervalo);
