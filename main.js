@@ -11,23 +11,34 @@ function mostranome(inserir, insercao, antenome, nome, intervalo){
     const letras = antenome.split("").reverse();
     const letra = nome.split("").reverse();
 
-    const typer = setInterval(() => {
+    setTimeout(() => {
 
-        if(!letras.length){
-            return clearInterval(typer);
-        }
-        
-        if (!letra.length) {
-            return clearInterval(typer);
-        }
+        const typer = setInterval(() => {
+            
+            if (!letra.length) {
+                return clearInterval(typer);
+            }
 
-        const proxm = letras.pop();
-        const prox = letra.pop();
+            const prox = letra.pop();
 
-        insercao.innerHTML += proxm;
-        inserir.innerHTML += prox;
+            inserir.innerHTML += prox;
 
-    }, intervalo);
+        }, intervalo);
+
+
+        const typers = setInterval(() => {
+
+            if(!letras.length){
+                return clearInterval(typers);
+            }
+
+            const proxm = letras.pop();
+
+            insercao.innerHTML += proxm;
+
+        }, intervalo);
+
+    }, 700);
 }
 
 mostranome(inserir, insercao, antenome, nome, intervalo);
