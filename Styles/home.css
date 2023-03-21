@@ -1,0 +1,183 @@
+/* --- LAYOUT --- */
+
+#home{
+    box-sizing: border-box;
+    height: 660px;
+    padding: 0 75px;
+}
+
+.fundo {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 660px;
+    background-color: rgba(64, 75, 34, 0.949);
+}
+
+.planta {
+    position: absolute;
+    display: inline;
+    width: 375px;
+    right: 0;
+    top: 100px;
+    opacity: 0.23;
+    filter: drop-shadow(-10px 3px 10px black);
+}
+
+/* --- MENU --- */
+.caixa {
+    width: 100%;
+    height: 130px;
+    padding: 40px 150px 100px 150px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+.caixa:before {
+    position: absolute;
+    content: '✺';
+    font-size: 10px;
+    color: #c69f69;
+    left: 75px;
+    top: 70px;
+}
+
+.caixa:after {
+    position: absolute;
+    content: '✺';
+    font-size: 10px;
+    color: #c69f69;
+    right: 75px;
+    top: 70px;
+}
+
+nav li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav li :hover {
+    transition: 290ms;
+    color: white;
+}
+
+.menu-item {
+    margin-right: 100px;
+    text-decoration: none;
+    color: #c69f69;
+    font-size: 1em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.logo:hover {
+    transition: 500ms;
+    filter: drop-shadow(0px 0px 50px rgb(255, 255, 255));
+}
+
+.contato {
+    margin-right: 0px;
+}
+
+/* --- MENU FIXO --- */
+
+nav.fixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(64, 75, 34, 0.949);
+    opacity: 0.5;
+    z-index: 9999;
+    transition: all 0.3s ease-in-out;
+    height: 65px;
+    overflow: hidden;
+} 
+
+nav.fixo .menu-item {
+    opacity: 0.5;
+}
+  
+nav.fixo:hover {
+    opacity: 1;
+}
+
+nav.fixo .menu-item:hover {
+    opacity: 1;
+}
+
+.reduz {
+    width: 135px;
+
+}
+
+
+/* --- TEXTO --- */
+.titulo {
+    padding-left: 100px;
+}
+
+.antenome {
+    font-family: 'Nanum Myeongjo', serif;
+    padding-bottom: 1em;
+    color: #c69f69;
+    font-size: 1.3em;
+}
+
+.nome {
+    font-size: 9em;
+    color: #fceabd;
+    top: 300px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.introducao {
+    text-align: justify;
+    width: 600px;
+    position: absolute;
+    right: 100px;
+}
+
+.subtitulo {
+    text-align: right;
+    font-size: 1.2em;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #c69f69;
+}
+
+.texto {
+    font-family: 'Fanwood Text', serif;
+    color: #fceabd;
+    font-size: 1.15em;
+    padding-bottom: 1em;
+
+}
+
+
+/* --- BOTÕES --- */
+.botao {
+    border-style: outset;
+    border-color: #c69f69;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fceabd;
+    background-color: #404b22;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.botao:hover {
+    transform: scale(1.07);
+    transition: 300ms;
+    box-shadow: 0.5px 0.5px 15px 1px #39421e ;
+}
