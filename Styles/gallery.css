@@ -14,7 +14,7 @@
     left: 50px;
     width: 230px;
     opacity: 0.3;
-    filter: drop-shadow(-20px 20px 5px black);
+    filter: drop-shadow(-20px 5px 5px black);
     object-fit: cover;
     user-select: none;
     pointer-events: none;

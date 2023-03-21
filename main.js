@@ -13,6 +13,16 @@ window.addEventListener('scroll', function() {
     nav.classList.remove('fixo', "mostrar");
     logo.classList.remove('reduz')
   }
+
+  if (scrollTop >= 660 && scrollTop < 1320) {
+    nav.style.backgroundColor = 'rgb(41,28,19)';
+  } else if (scrollTop >= 1320 && scrollTop < 1980) {
+    nav.style.backgroundColor = '#4d340f';
+  } else if (scrollTop >= 1980) {
+    nav.style.backgroundColor = 'rgba(64, 75, 34, 0.949)';
+  } else {
+    nav.style.backgroundColor = 'transparent';
+  }
 });
 
 
