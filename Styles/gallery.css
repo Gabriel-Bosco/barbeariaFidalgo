@@ -14,10 +14,10 @@
     left: 50px;
     width: 230px;
     opacity: 0.3;
-    user-select: none;
-    pointer-events: none;
     filter: drop-shadow(-20px 20px 5px black);
     object-fit: cover;
+    user-select: none;
+    pointer-events: none;
 }
 
 .quadro {
