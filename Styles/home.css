@@ -93,7 +93,7 @@ nav.fixo {
     left: 0;
     right: 0;
     background-color: rgba(64, 75, 34, 0.949);
-    opacity: 0.5;
+    opacity: 0.85;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
     height: 65px;
@@ -101,7 +101,7 @@ nav.fixo {
 } 
 
 nav.fixo .menu-item {
-    opacity: 0.5;
+    opacity: 0.85;
 }
   
 nav.fixo:hover {
