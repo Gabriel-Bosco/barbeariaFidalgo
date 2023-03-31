@@ -22,7 +22,10 @@ window.addEventListener('scroll', function() {
     } else {
       nav.classList.remove('menu-fixo1', 'menu-fixo2', 'menu-fixo3');
     }
-  }    
+  } else {
+    nav.classList.remove('fixo', 'mostrar');
+    logo.classList.remove('reduz');
+  }
 });
 
 
