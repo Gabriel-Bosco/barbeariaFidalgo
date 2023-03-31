@@ -11,28 +11,19 @@ window.addEventListener('scroll', function() {
     logo.classList.add('reduz');
 
     if (scrollTop >= 660 && scrollTop < 1320) {
-      nav.style.background = 'linear-gradient(90deg, rgba(41,28,19,1) 50%, rgba(29,21,16,1) 51%)';
+      nav.classList.remove('menu-fixo2', 'menu-fixo3');
+      nav.classList.add('menu-fixo1');
     } else if (scrollTop >= 1320 && scrollTop < 1980) {
-      nav.style.background = 'linear-gradient(266deg, rgba(77,52,15,1) 0%, rgba(12,8,2,1) 100%)';
+      nav.classList.remove('menu-fixo1', 'menu-fixo3');
+      nav.classList.add('menu-fixo2');
     } else if (scrollTop >= 1980) {
-      nav.style.background = 'rgba(64, 75, 34, 0.949)';
+      nav.classList.remove('menu-fixo1', 'menu-fixo2');
+      nav.classList.add('menu-fixo3');
     } else {
-      nav.style.background = 'transparent';
+      nav.classList.remove('menu-fixo1', 'menu-fixo2', 'menu-fixo3');
     }
-  } else {
-    nav.classList.remove('fixo', 'mostrar');
-    logo.classList.remove('reduz');
-    nav.style.background = 'transparent';
-  }
+  }    
 });
-
-
-
-
-
-
-
-
 
 
 /* ROLAGEM SUAVE */
@@ -142,7 +133,7 @@ function criarGaleria() {
     };
   }
   
-criarGaleria();
+//criarGaleria();
 
 
 

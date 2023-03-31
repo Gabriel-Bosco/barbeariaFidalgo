@@ -45,21 +45,33 @@
 <body>
 
   <header id="home">
-    <div class="fundo">
-      <div class="caixa">
-        <nav>
-          <ul class="menu">
-            <li><a href="#home" class="menu-item">Início</a></li>
-            <li><a href="#about" class="menu-item">Sobre Nós</a></li>
-            <img src="Imagens/logo.png" alt="FIDALGO" class="menu-item logo">
-            <li><a href="#gallery" class="menu-item">Galeria</a></li>
-            <li><a href="#contact" class="menu-item" style="margin: 0;">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
+
+      <nav class="navbar navbar-expand-md fixed-top bg-verde p-0 nav-altura">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse d-flex justify-content-around align-items-center" id="navbarNav">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link fonte-menu me-5 display-6 menu-item" aria-current="page" href="#home">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonte-menu me-5 display-6 menu-item" href="#about">Sobre Nós</a>
+              </li>
+              <li class="logo-container">
+                <img src="Imagens/logo.png" alt="Logotipo Imperial da Barbearia Fidalgo" width="150" class="d-flex menu-item logo justify-content-center align-items-center">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonte-menu me-5 display-6 menu-item" href="#gallery">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonte-menu me-5 display-6 menu-item" href="#contact">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       
       <img src="Imagens/planta.png" alt="" class="planta">
-      <div class="titulo">
+      <div class="titulo d-flex align-items-end">
         <h2 class="antenome" id="antenome">‎</h2>
         <h1 class="nome" id="nome">‎</h1>
       </div>
@@ -74,7 +86,6 @@
         </p>
         <a href="https://booksy.com/pt-br/126563_barbearia-fidalgo_cabelo_931546_guarulhos?do=invite" target="_blank"><input type="button" value="Agendar  um  horário" class="botao"></a>
       </div>
-    </div>
   </header> 
 
   <section id="about">
