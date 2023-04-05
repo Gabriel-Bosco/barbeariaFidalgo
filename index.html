@@ -46,51 +46,61 @@
 
   <header id="home">
 
-      <nav class="navbar navbar-expand-md fixed-top bg-verde p-0 nav-altura">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse d-flex justify-content-around align-items-center" id="navbarNav">
-            <ul class="navbar-nav d-flex justify-content-center align-items-center">
-              <li class="nav-item">
-                <a class="nav-link fonte-menu me-5 display-6 menu-item" aria-current="page" href="#home">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fonte-menu me-5 display-6 menu-item" href="#about">Sobre Nós</a>
-              </li>
-              <li class="logo-container">
-                <img src="Imagens/logo.png" alt="Logotipo Imperial da Barbearia Fidalgo" width="150" class="d-flex menu-item logo justify-content-center align-items-center">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fonte-menu me-5 display-6 menu-item" href="#gallery">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fonte-menu me-5 display-6 menu-item" href="#contact">Contato</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg fixed-top bg-verde p-0 nav-altura">
+      <div class="container-fluid">
+        <div class="navbar-collapse justify-content-around align-items-center" id="navbarNav">
+          <ul class="navbar-nav justify-content-center align-items-center flex-row">
+            <li class="nav-item">
+              <a class="nav-link fonte-menu me-5 md-display-6 display-3 menu-item" aria-current="page" href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fonte-menu me-5 nd-display-6 display-3 menu-item" href="#about">Sobre Nós</a>
+            </li>
+            <li class="logo-container">
+              <img src="Imagens/logo.png" alt="Logotipo Imperial da Barbearia Fidalgo" width="150" class="d-flex menu-item logo justify-content-center align-items-center">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fonte-menu me-5 md-display-6 display-3 menu-item" href="#gallery">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fonte-menu me-5 md-display-6 display-3 menu-item" href="#contact">Contato</a>
+            </li>
+          </ul>
+          
         </div>
-      </nav>
+      </div>
+    </nav>
+
+    
+
+    
+    
+    
+    
       
       <img src="Imagens/planta.png" alt="" class="planta">
-      <div class="titulo d-flex align-items-end">
-        <h2 class="antenome" id="antenome">‎</h2>
-        <h1 class="nome" id="nome">‎</h1>
+      <div class="position-relative d-flex align-items-center caixa-titulo">
+        <div class="position-absolute text-center caixa-titulo-alinhada">
+          <h2 class="antenome d-flex pb-2 md-fs-4 fs-2" id="antenome">‎</h2>
+          <h1 class="nome d-flex" id="nome">‎</h1>
+        </div>
       </div>
 
-      <div class="introducao">
-        <h3 class="subtitulo">A mais tradicional de Guarulhos</h3></br>
-        <p class="texto">
-          Mesmo com nossa longa história, mesmo que carreguemos a bagagem da barbearia clássica de Guarulhos nas costas,
-          sentimos a necessidade de nos atualizar e trazer para os nossos amigos clientes, todo o conforto e a praticidade que a modernidade pode trazer. </br></br>
-          Aqui, nessa plataforma você pode: saber mais sobre nossa história, conhecer os procedimentos e serviços que temos, tirar dúvidas conosco e até reservar um horário só para você!</br></br>
-          E ai cavalheiro, assim como nos velhos tempos, está pronto para um experiência em uma barbearia de verdade?
-        </p>
-        <a href="https://booksy.com/pt-br/126563_barbearia-fidalgo_cabelo_931546_guarulhos?do=invite" target="_blank"><input type="button" value="Agendar  um  horário" class="botao"></a>
-      </div>
+    <div class="introducao text-align-justify position-absolute position-sm-start mx-auto mx-sm-0 position-md-relative mx-md-auto">
+      <h3 class="subtitulo text-end fs-5 fw-bold text-uppercase">A mais tradicional de Guarulhos</h3>
+      <p class="texto pb-4">
+        Mesmo com nossa longa história, mesmo que carreguemos a bagagem da barbearia clássica de Guarulhos nas costas,
+        sentimos a necessidade de nos atualizar e trazer para os nossos amigos clientes, todo o conforto e a praticidade que a modernidade pode trazer. </br></br>
+        Aqui, nessa plataforma você pode: saber mais sobre nossa história, conhecer os procedimentos e serviços que temos, tirar dúvidas conosco e até reservar um horário só para você!</br></br>
+        E ai cavalheiro, assim como nos velhos tempos, está pronto para um experiência em uma barbearia de verdade?
+      </p>
+      <a href="https://booksy.com/pt-br/126563_barbearia-fidalgo_cabelo_931546_guarulhos?do=invite" target="_blank" class="d-inline-block"><input type="button" value="Agendar um horário" class="btn botao"></a>
+    </div>            
   </header> 
 
   <section id="about">
-    <div class="sobre">
-      <div class="titulo-sobre">
+    <div class="sobre text-center">
+      <div class="titulo-sobre mx-auto">
         <h2 class="nome">Tradição</h2>
         <h2 class="antenome">Eternizada</h2>
         <div class="texto">
@@ -103,13 +113,14 @@
           </p>
         </div>
       </div>
-      <a href="https://api.whatsapp.com/send?phone=5511960628409" target="_blank"><button class="botao"> Conheça nossa historia pessoalmente</button></a>
+      <a href="https://api.whatsapp.com/send?phone=5511960628409" target="_blank"><button class="btn botao"> Conheça nossa historia pessoalmente</button></a>
     </div>
     <img src="Imagens/livro.png" alt="livro antigo com tesoura em cima" class="livro">
     <img src="Imagens/caneta.png" alt="caneta tinteiro antiga" class="caneta">
   </section>
-  
-<section id="gallery">
+
+   
+  <section id="gallery">
     <div class="titulo-galeria">
       <h2 class="nome">Criando</h2>
       <h2 class="antenome">Obras-Primas</h2>
@@ -133,47 +144,47 @@
     <ul>
     </ul>
   </div>
-</section>
+  </section>
 
-<section id="contact">
-  <div class="centro-contato">
-    <div class="titulo-contato">
-      <h2 class="nome">A tradição</h2>
-      <h2 class="antenome">Continua aqui</h2>
-      <p class="texto">
-        Há mais de 30 anos, a Barbearia Fidalgo está estabelecida no mesmo local, honrando nossa tradição e legado de classe e elegância.
-        Mantemos nossos costumes de capricho e amizade, transmitidos de geração em geração. Além disso, é fácil entrar em contato conosco.
-        Nós estamos sempre à disposição para atendê-lo da melhor maneira possível.
-      </p>
-      <div class="acao">
-        <input type="button" value="Fale pelo WhatsApp" class="botao zap">
-        <input type="button" value="Agende seu horário" class="botao horario">
-        <input type="button" value="Veja nossa localização" class="botao localizacao">
+  <section id="contact">
+    <div class="centro-contato">
+      <div class="titulo-contato">
+        <h2 class="nome">A tradição</h2>
+        <h2 class="antenome">Continua aqui</h2>
+        <p class="texto">
+          Há mais de 30 anos, a Barbearia Fidalgo está estabelecida no mesmo local, honrando nossa tradição e legado de classe e elegância.
+          Mantemos nossos costumes de capricho e amizade, transmitidos de geração em geração. Além disso, é fácil entrar em contato conosco.
+          Nós estamos sempre à disposição para atendê-lo da melhor maneira possível.
+        </p>
+        <div class="acao">
+          <input type="button" value="Fale pelo WhatsApp" class="botao zap">
+          <input type="button" value="Agende seu horário" class="botao horario">
+          <input type="button" value="Veja nossa localização" class="botao localizacao">
+        </div>
+  
+        <canvas></canvas> <!-- divisão-->
+        
+        <table class="tabela">
+          <h3 class="tabelatitulo">HORÁRIOS DE FUNCIONAMENTO</h3>
+          <tr>
+            <td>Segunda a Sexta</td>
+            <td style="text-align: right;">9:00 - 19:00</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td style="text-align: right;">8:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td style="text-align: right;">Fechado</td>
+          </tr>
+        </table>
+        
       </div>
-
-      <canvas></canvas> <!-- divisão-->
-      
-      <table class="tabela">
-        <h3 class="tabelatitulo">HORÁRIOS DE FUNCIONAMENTO</h3>
-        <tr>
-          <td>Segunda a Sexta</td>
-          <td style="text-align: right;">9:00 - 19:00</td>
-        </tr>
-        <tr>
-          <td>Sábado</td>
-          <td style="text-align: right;">8:00 - 18:00</td>
-        </tr>
-        <tr>
-          <td>Domingo</td>
-          <td style="text-align: right;">Fechado</td>
-        </tr>
-      </table>
-      
+      <img src="Imagens/mapa1.png" alt="mapa de Guarulhos" class="mapa">
+      <img src="Imagens/telefone.png" alt="Telefone antigo" class="telefone">
     </div>
-    <img src="Imagens/mapa1.png" alt="mapa de Guarulhos" class="mapa">
-    <img src="Imagens/telefone.png" alt="Telefone antigo" class="telefone">
-  </div>
-</section>
+  </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <script src="main.js"></script>

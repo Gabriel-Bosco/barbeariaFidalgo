@@ -56,7 +56,7 @@ canvas {
     position: absolute;
     text-align: left;
     left: 150px;
-    width: 660px;
+    width: 600px;
     padding-top: 20px;
 }
 
@@ -76,6 +76,7 @@ canvas {
 .titulo-contato .texto {
     font-size: 1.3em;
     color: black;
+    width: auto;
 }
 
 .tabelatitulo {
@@ -91,6 +92,62 @@ canvas {
 .tabela td {
     font-family: 'Fanwood Text', serif;
     font-size: 1.3em;
+}
+
+@media (max-width: 576px) {
+    .centro-contato {
+        text-align: center;
+    }
+
+    .titulo-contato {
+        position: static;
+        text-align: center;
+        left: auto;
+        padding-top: 0;
+        width: 400px;
+    }
+
+    .titulo-contato .texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .acao{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .acao .botao {
+        margin: 0;
+        text-align: center;
+    }
+  }
+
+@media (max-width: 856px) {
+
+    .titulo-contato{
+        width: 400px;
+    }
+    .tabela {
+        display: none;
+    }
+
+    canvas {
+        display: none;
+    }
+
+    .tabelatitulo {
+        display: none;
+    }
+}
+
+@media (max-width: 1325px){
+    .telefone {
+        display: none;
+    }
+    .mapa {
+        display: none;
+}
 }
 
 /* --- BOTÕES --- */
@@ -116,3 +173,4 @@ canvas {
     background-color: #c69f69;
     padding: 10px 17.3px;
 }
+

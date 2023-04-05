@@ -136,8 +136,8 @@ function criarGaleria() {
     };
   }
   
-//criarGaleria();
-
-
+  if (window.matchMedia("(min-width: 1128px)").matches) {
+    criarGaleria();
+  }
 
 

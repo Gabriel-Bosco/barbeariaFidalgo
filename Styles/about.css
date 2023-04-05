@@ -8,31 +8,35 @@
     background: linear-gradient(90deg, rgba(41,28,19,1) 50%, rgba(29,21,16,1) 51%);
 }
 
-.sobre {
-    text-align: center;
-}
-
 .livro {
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.1;
     left: -220px;
     top: 665px;
     height: 650px;
     pointer-events: none;
     user-select: none;
     border-radius: 15px;
+    z-index: -1;
 }
 
 .caneta {
     position: absolute;
     right: 20px;
     top: 660px;
-    opacity: 0.3;
+    opacity: 0.1;
     height: 660px;
     pointer-events: none;
     user-select: none;
     filter: drop-shadow(-10px 5px 5px black);
+    z-index: -1;
 }
+
+.sobre {
+    position: relative;
+    z-index: 1;
+}
+
 
 
 /* --- TEXTO --- */
@@ -56,12 +60,34 @@
     color: #ececec;
     top: 300px;
     font-family: 'Great Vibes', cursive;
+    padding-bottom: 25px;
 }
 
 .titulo-sobre .texto {
     color: white;
     font-size: 1.35em;
+    padding-bottom: 25px;
 }
+
+@media (max-width: 576px) {
+    .titulo-sobre {
+      width: 100%;
+    }
+    .titulo-sobre .nome {
+      font-size: 6em;
+      padding-bottom: 20px;
+    }
+    .titulo-sobre .antenome {
+      font-size: 2em;
+      margin-top: 0;
+    }
+    .titulo-sobre .texto {
+      font-size: 1.15em;
+      text-align: justify;
+      padding-bottom: 20px;
+    }
+  }
+  
 
 /* --- BOTÕES --- */
 #about .botao {

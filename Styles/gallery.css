@@ -70,6 +70,26 @@
     color: white;
 }
 
+@media (max-width: 576px) {
+
+  .quadro {
+    right: 5px;
+  }
+
+  .titulo-galeria{
+    width: 500px;
+    left: 5px;
+  }
+
+  .titulo-galeria .antenome {
+    font-size: 2.5em;
+    margin-bottom: 100px;
+  }
+
+  .titulo-galeria .nome {
+    font-size: 8em;
+  }
+}
 
 /* --- BOTÕES --- */
 .titulo-galeria .botao {
